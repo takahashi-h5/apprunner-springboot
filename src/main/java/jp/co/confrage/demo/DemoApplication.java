@@ -15,12 +15,12 @@ public class DemoApplication {
 	}
 
 	@GetMapping("/get")
-    public String get() {
-        return "get";
-    }
+	public String get() {
+		return "get";
+	}
 
 	@PostMapping("/post")
 	public String post() {
-        return "post";
+        	return "post";
 	}
 }
